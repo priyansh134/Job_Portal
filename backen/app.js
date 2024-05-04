@@ -13,7 +13,7 @@ dotenv.config({path:'./config/config.env'});
 
 app.use(
     cors({
-      origin: 'http://localhost:5173',
+      origin: 'https://deploy-mern-1whq.vercel.app',
       method: ["GET", "POST", "DELETE", "PUT"],
       credentials: true,
       // allowedHeaders: ["Content-Type", "Authorization"],
